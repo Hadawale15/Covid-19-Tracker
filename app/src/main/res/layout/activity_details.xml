@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/covidback"
+    tools:context=".DetailsActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:layout_marginTop="20dp"
+       android:gravity="center"
+       android:layout_marginBottom="10dp">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Contry Name:"
+          android:textSize="20sp"
+          android:fontFamily="sans-serif"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="10"
+          android:textStyle="bold"
+          android:textColor="#B50707"
+          android:textSize="25dp"
+          android:layout_marginLeft="10dp"
+          android:id="@+id/country_id2"/>
+
+
+   </LinearLayout>
+
+
+   <ImageView
+       android:layout_width="235dp"
+       android:layout_height="150dp"
+      android:layout_gravity="center"
+       android:layout_marginBottom="15dp"
+      android:id="@+id/flag_id2"/>
+      <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+      android:orientation="vertical">
+
+      <ScrollView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Total Population :"
+                   android:textSize="20sp"
+                   android:textColor="#B30804"
+                   android:fontFamily="sans-serif"/>
+
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:text="10"
+                   android:textSize="20dp"
+                   android:textColor="#570DED"
+                   android:textAlignment="textEnd"
+                   android:id="@+id/population_id2"/>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text=" Total Cases :"
+                   android:textColor="#B30804"
+                   android:textSize="20sp"
+                   android:fontFamily="sans-serif"/>
+
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:text="10"
+                   android:textSize="20dp"
+                   android:textColor="#570DED"
+                   android:textAlignment="textEnd"
+                   android:id="@+id/cases_id2"/>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Total Recovered :"
+                   android:textColor="#B30804"
+                   android:textSize="20sp"
+                   android:fontFamily="sans-serif"/>
+
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:text="10"
+                   android:textSize="20dp"
+                   android:textColor="#570DED"
+                   android:textAlignment="textEnd"
+                   android:id="@+id/recovered_id2"/>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Total Deaths :"
+                   android:textColor="#B30804"
+                   android:textSize="20sp"
+                   android:fontFamily="sans-serif"/>
+
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:text="10"
+                   android:textSize="20dp"
+                   android:textColor="#570DED"
+                   android:textAlignment="textEnd"
+                   android:id="@+id/deaths_id2"/>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Active :"
+                   android:textColor="#B30804"
+                   android:textSize="20sp"
+                   android:fontFamily="sans-serif"/>
+
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:text="10"
+                   android:textSize="20dp"
+                   android:textAlignment="textEnd"
+                   android:textColor="#570DED"
+                   android:id="@+id/active_id2"/>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Critical :"
+                   android:textColor="#B30804"
+                   android:textSize="20sp"
+                   android:fontFamily="sans-serif"/>
+
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:text="10"
+                   android:textSize="20dp"
+                   android:textAlignment="textEnd"
+                   android:textColor="#570DED"
+                   android:id="@+id/critical_id2"/>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Todays Cases :"
+                   android:textColor="#B30804"
+                   android:textSize="20sp"
+                   android:fontFamily="sans-serif"/>
+
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:text="10"
+                   android:textSize="20dp"
+                   android:textAlignment="textEnd"
+                   android:textColor="#570DED"
+                   android:id="@+id/todaycases_id2"/>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Todays Recovered :"
+                   android:textColor="#B30804"
+                   android:textSize="20sp"
+                   android:fontFamily="sans-serif"/>
+
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:text="10"
+                   android:textSize="20dp"
+                   android:textColor="#570DED"
+                   android:textAlignment="textEnd"
+                   android:id="@+id/todaysrecov_id2"/>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Todays Deaths :"
+                   android:textSize="20sp"
+                   android:textColor="#B30804"
+                   android:fontFamily="sans-serif"/>
+
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:text="10"
+                   android:textSize="20dp"
+                   android:textColor="#570DED"
+                   android:textAlignment="textEnd"
+                   android:id="@+id/todaydeath_id2"/>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="One case per People :"
+                   android:textColor="#B30804"
+                   android:textSize="20sp"
+                   android:fontFamily="sans-serif"/>
+
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:text="10"
+                   android:textSize="20dp"
+                   android:textColor="#570DED"
+                   android:textAlignment="textEnd"
+                   android:id="@+id/onecaseper_id2"/>
+
+
+            </RelativeLayout>
+
+
+         </LinearLayout>
+
+      </ScrollView>
+
+   </LinearLayout>
+
+
+
+
+</LinearLayout>
